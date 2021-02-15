@@ -23,6 +23,7 @@
 		<module>gmall-sms</module>
 		<module>gmall-ums</module>
 		<module>gmall-wms</module>
+		<module>gmall-generator</module>
     </modules>
 
 

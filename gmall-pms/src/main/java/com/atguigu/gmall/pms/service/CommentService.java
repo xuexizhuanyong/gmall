@@ -1,0 +1,18 @@
+package com.atguigu.gmall.pms.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.atguigu.gmall.pms.entity.Comment;
+import com.java.core.bean.PageVo;
+import com.java.core.bean.QueryCondition;
+
+/**
+ * 商品评价表
+ *
+ * @author wangzj
+ * @since  2021-02-15 21:51:57
+ */
+public interface CommentService extends IService<Comment> {
+
+    PageVo queryPage(QueryCondition params);
+}
+
