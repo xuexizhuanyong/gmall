@@ -1,12 +1,12 @@
 server:
-  port: 8081
+  port: 8085
 
 spring:
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: 6bd550e2-e3d4-4521-823f-64d4dcfb29cc
+        namespace: 0ff23b9d-8e0b-42c5-9c5f-43af7bce2f9e
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/guli?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
@@ -20,7 +20,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
-  mapper-locations: classpath:mapper/pms/**/*.xml
+  mapper-locations: classpath:mapper/sms/**/*.xml
 logging:
   level:
     com.atguigu: debug
