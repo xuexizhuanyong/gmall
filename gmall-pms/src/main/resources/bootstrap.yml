@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: pms-service
@@ -8,3 +9,5 @@ spring:
         namespace: 6bd550e2-e3d4-4521-823f-64d4dcfb29cc
         group: dev
         file-extension: yml
+server:
+  port: 8081
